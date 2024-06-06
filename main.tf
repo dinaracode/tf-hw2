@@ -21,7 +21,7 @@ data "aws_availability_zones" "available_rn" {
   state = "available"
 }
 
-#result_of_this_call == ["us-east-1a", "us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d", "us-east-1e", "us-east-1f"]
+#result_of_this_call == ["us-east-1a", "us-east-1b", "us-east-1c", "us-east-1d", "us-east-1e", "us-east-1f"]
 #                           index 0      index 1       index 2        index 3       index 4       index 5
 
 #creating  two public subnets
